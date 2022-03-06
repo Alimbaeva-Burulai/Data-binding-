@@ -1,0 +1,15 @@
+﻿<Window x:Class="ObservableCollection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObservableCollection"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lbox" Margin="0,0,0,89">
+        </ListBox>
+        <Button Content="Add Tiger" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Width="115" Click="AddTigerButton_Click"/>
+
+    </Grid>
+</Window>
